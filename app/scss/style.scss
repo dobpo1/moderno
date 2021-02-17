@@ -157,7 +157,7 @@
     background-color: #fff;
     padding: 0px 20px;
     width: 168px;
-    top: 70px;
+    top: 90px;
     left: -5px;
     transition: all .3s;
     height: 0;
@@ -173,7 +173,8 @@
 .notification__box,
 .message__box{
     position: relative;    
-    height: 50px;    
+    height: 90px;
+    padding-top: 20px;    
     &:hover{
         .user__menu{
             height: auto;
@@ -191,16 +192,16 @@
 .circle__menu{
     position: absolute;
     border-top: 0px solid #e0e0e0;    
-    top: 62px;
+    top: 90px;
     right: -15px;
     height: 0;
     overflow: hidden;      
 }
 .basket__box,
 .notification__box,
-.message__box{
-    height: 35px;    
-    margin-left: 15px;    
+.message__box{      
+    margin-left: 15px; 
+    padding-top: 28px;   
     &:hover{
         .header__circle::before{
             color: $bg;
