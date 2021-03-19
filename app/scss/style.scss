@@ -22,7 +22,7 @@
     width: 72px;
     border-radius: 4px;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 12px;
 }
 .header__btn-login{
@@ -33,8 +33,7 @@
     margin-left: 7px;
 }
 .header__menu{
-    background-color: $bg;
-        
+    background-color: $bg;        
 }
 .menu{
     display: flex;
@@ -87,8 +86,8 @@
 .icon-envelope-o{
     color: #000;
 }
-.header__box{
-    display: flex;
+.header__box{    
+    display: flex;    
     align-items: center;
 }
 .notification{
@@ -102,6 +101,7 @@
     }
 }
 .basket{
+    margin-right: 20px;
     span{
      background-color: $green;   
     }
@@ -115,7 +115,7 @@
         display: block;
     }
 }
-.user{     
+.user{         
     padding-right: 20px;
     position: relative;    
     &::before{
@@ -171,7 +171,7 @@
 .user__box,
 .basket__box,
 .notification__box,
-.message__box{
+.message__box{    
     position: relative;    
     height: 90px;
     padding-top: 20px;    
@@ -195,7 +195,8 @@
     top: 90px;
     right: -15px;
     height: 0;
-    overflow: hidden;      
+    overflow: hidden;
+    z-index: 1;      
 }
 .basket__box,
 .notification__box,
@@ -303,6 +304,10 @@
 }
 .icons-color::before{
     color: $tomato;
+}
+.header__btn-menu,
+.menu__btn{
+    display: none;
 }
 
 // end header
@@ -810,3 +815,6 @@
 }
 
 // end footer
+
+
+@import 'media';
