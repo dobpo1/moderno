@@ -23,6 +23,7 @@
     "rateyo": "^2.3.2"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "normalize.css": "^8.0.1",
     "slick-carousel": "^1.8.1"
   }
