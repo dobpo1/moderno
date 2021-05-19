@@ -313,6 +313,7 @@
 // end header
 // start modal
 #modal{
+    display: none;
     background-color: $green;
     max-width: 730px;
     width: 100%;
@@ -463,9 +464,34 @@
         }
     }
 }
+.page-search{
+    min-height: 220px;
+        .search__inner{
+            padding: 55px 0px;
+            .search__inner-text{
+                margin-bottom: 20px;
+            }
+        }
+}
 
 // end search
 // start products
+
+.breadcrumbs__inner{ 
+    margin: 35px auto;       
+}
+.breadcrumbs__list{
+    li{
+        display: inline-block;
+        &+li{
+            margin-left: 30px;
+        }
+    }
+    a{
+        color: #90a4ae;
+        font-size: 14px;
+    }
+}
 
 .products{
     padding: 110px 0;
