@@ -9,7 +9,36 @@ $(function(){
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 4,
-        dots: true
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1948,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,                      
+                }
+              },
+            {
+              breakpoint: 1476,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,                                          
+              }
+            },
+            {
+                breakpoint: 1004,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,                                                                
+                }
+              },
+              {
+                breakpoint: 496,
+                settings: {
+                    centerPadding: '100px',                                                              
+                }
+              },   
+        ]        
     });
 });
 $('.product-one__tabs .tab').on('click', function(event) {

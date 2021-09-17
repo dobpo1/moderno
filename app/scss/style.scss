@@ -529,17 +529,19 @@ ul.breadcrumbs__list li+li:before{
         }
     }
 }
-.products__inner-box{
+.products__inner-box{    
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+    justify-content: center;   
+    flex-wrap: wrap; 
+}   
 .product__item{
     max-width: 442px;
     width: 100%;
     box-shadow: 0px 1px 2px 0px rgba(285, 214, 222, 0.75);
     background-color: #fff;
     margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;    
     &-img{
         min-height: 250px;
         background-repeat: no-repeat;
@@ -630,7 +632,7 @@ ul.breadcrumbs__list li+li:before{
 // start product-slider
 
 .product-slider{
-    padding: 110px 0px 120px;
+    padding: 110px 0px 120px;       
     .slick-dots{
         text-align: center;
         margin-top: 50px;

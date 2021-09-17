@@ -3,6 +3,15 @@
         padding: 0 15px;
     }
 }
+@media (max-width: 1947px){
+    .slick-slide{
+        text-align: center;
+        .product__item-name{
+            text-align: left;
+        }
+    }
+    
+}
 @media (max-width: 1150px){
     .footer__inner{
         flex-wrap: wrap;
@@ -21,8 +30,18 @@
     .header__logo{
         position: absolute;
         left: 0px;
-    }    
+    }        
+    .tutorial{
+        &__inner{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item{
+            margin: 0 15px;
+        }
+    }        
 }
+
 @media (max-width: 900px){    
     .footer__col-social{        
         min-width: 100%;
@@ -35,7 +54,7 @@
         & + &{
             margin-left: 48px;
         }
-    }
+    }       
 }
 @media (max-width: 840px){
     .menu__list{
@@ -82,6 +101,23 @@
     .message__box{
         display: none;
     }
+    .products__inner-btn{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        button{
+            margin-bottom: 20px;
+        }
+    }    
+    .product-slider{
+        padding-top: 0px;
+    }
+    .product-slider{
+        .slick-dots{
+            margin-top: 20px;
+        }
+    }
 }
 @media (max-width: 540px){
     .footer__col{
@@ -93,6 +129,14 @@
             margin-top: 30px;
         }
     }
+    .author__title{        
+        margin: 0 20px -30px;        
+    }
+    .author__box{
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;        
+    }    
 }
 @media (max-width: 520px){
     .menu__list{
@@ -148,7 +192,7 @@
     .circle__menu{
         top: 80px;
         right: -165px;
-    }
+    }    
 }
 
 
@@ -167,6 +211,16 @@
     .user__box{
         min-width: auto;
     }
+    .advantages__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advantages__item-text{
+        margin-bottom: 30px;
+    }
+    .product__item-slide{
+        max-width: 92%;
+    } 
     
 }
 @media (max-width: 390px){
